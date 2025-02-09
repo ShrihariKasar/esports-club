@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Us | Esports Club</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">Esports Club</a>
+            </div>
+            <div class="nav-right">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="teams.html">Teams</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="join.html" class="active">Join Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Join Us Section -->
+    <section class="join">
+        <div class="container">
+            <h2>Join Our Esports Club</h2>
+            <p>Fill out the form below to become a member and participate in exclusive tournaments, events, and training sessions.</p>
+            
+            <form action="#" method="POST" class="join-form">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="game">Favorite Game</label>
+                    <select id="game" name="game" required>
+                        <option value="" disabled selected>Select your favorite game</option>
+                        <option value="Valorant">Valorant</option>
+                        <option value="CS:GO">CS:GO</option>
+                        <option value="PUBG">PUBG</option>
+                        <option value="Call of Duty">Call of Duty</option>
+                        <option value="League of Legends">League of Legends</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="experience">Gaming Experience (Years)</label>
+                    <input type="number" id="experience" name="experience" min="0" placeholder="Enter years of experience">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Why do you want to join?</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Tell us about your passion for esports"></textarea>
+                </div>
+
+                <button type="submit" class="btn">Join Now</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Esports Club. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

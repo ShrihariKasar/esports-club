@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Esports Club - Home</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+<header class="header">
+  <nav class="navbar">
+    <div class="logo">
+      <a href="index.html">Esports Club</a>
+    </div>
+    <div class="nav-right">
+      <!-- Search Bar -->
+      <div class="search-bar">
+        <input type="text" placeholder="Search..." aria-label="Search">
+        <button type="submit" aria-label="Search Button">Search</button>
+      </div>
+
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li class="dropdown">
+            <a href="events.html" class="dropdown-toggle">Events</a>
+            <!-- Dropdown -->
+            <ul class="dropdown-menu">
+                <li><a href="events.html#upcoming">Upcoming Events</a></li>
+                <li><a href="events.html#past">Past Events</a></li>
+            </ul>
+        </li>
+        <li><a href="teams.html">Teams</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="join.html">Join Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+    </ul>    
+      <!-- Hamburger Menu -->
+      <div class="hamburger" id="hamburger" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+</header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Welcome to Matoshri Esports Club</h1>
+      <p>Your ultimate destination for competitive gaming and tournaments!</p>
+      <a href="join.html" class="cta-button">Join Us Now</a>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features">
+    <div class="container">
+      <h2>What We Offer</h2>
+      <div class="features-grid">
+        <div class="feature">
+          <img src="images/Tournaments.jpg" alt="Tournaments">
+          <h3>Tournaments</h3>
+          <p>Participate in exciting gaming tournaments with great prizes!</p>
+        </div>
+        <div class="feature">
+          <img src="images/Skill Development.jpg" alt="Skill Development">
+          <h3>Skill Development</h3>
+          <p>Improve your skills with workshops and team practice sessions.</p>
+        </div>
+        <div class="feature">
+          <img src="images/Community.jpg" alt="Community">
+          <h3>Community</h3>
+          <p>Join a vibrant gaming community and make lasting connections.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Testimonials Section -->
+<section class="testimonials">
+  <h2>What Our Members Say</h2>
+  <div class="testimonial-grid">
+    <!-- President Testimonial -->
+    <div class="testimonial president" id="president">
+        <img src="images/s.jpg" alt="President" class="testimonial-img">
+        <p>"Joining this club was the best decision! Great community and amazing tournaments!"</p>
+        <span class="role">President - Shrihari Kasar</span>
+    </div>
+
+    <!-- Vice President Testimonial -->
+    <div class="testimonial vice-president" id="vice-president">
+        <img src="images/u.jpg" alt="Vice President" class="testimonial-img">
+        <p>"The workshops improved my gaming skills drastically. Highly recommended!"</p>
+        <span class="role">Vice President - Utkarsha Kakulte</span>
+    </div>
+
+    <!-- Coordinator Testimonial -->
+    <div class="testimonial coordinator" id="coordinator">
+        <img src="images/r.png" alt="Coordinator" class="testimonial-img">
+        <p>"The events are so well-organized, and the prizes are awesome. I love being part of this club!"</p>
+        <span class="role">Coordinator - Rohit Khadangle</span>
+    </div>
+  </div>
+</section>
+  <!-- Newsletter Section -->
+<section class="newsletter">
+  <div class="container">
+    <h2>Stay Updated</h2>
+    <p>Subscribe to our newsletter to stay updated on the latest events and news.</p>
+    <form action="#" method="POST" class="newsletter-form">
+      <div class="form-group">
+        <input type="email" placeholder="Enter your email" required class="email-input">
+        <button type="submit" class="subscribe-btn">Subscribe</button>
+      </div>
+    </form>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer-content">
+    <p>&copy; 2025 Matoshri College of Engineering - Esports Club. All rights reserved.</p>
+    <ul class="social-links">
+      <li><a href="#" class="social-icon" id="facebook"><i class="fab fa-facebook-f"></i></a></li>
+      <li><a href="#" class="social-icon" id="instagram"><i class="fab fa-instagram"></i></a></li>
+      <li><a href="#" class="social-icon" id="twitter"><i class="fab fa-twitter"></i></a></li>
+    </ul>
+  </div>
+</footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html> 
